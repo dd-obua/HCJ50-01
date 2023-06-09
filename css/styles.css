@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
 
 * {
   margin: 0;
@@ -26,14 +26,27 @@ body {
   gap: 1.5rem;
 }
 
+h3 {
+  display: inline;
+  position: absolute;
+  left: 2rem;
+  bottom: 2rem;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  opacity: 0;
+}
+
 .panel {
-  width: 100%;
+  flex: 0.5;
   height: 80vh;
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 5rem;
+  border-radius: 2.5rem;
   cursor: pointer;
+  position: relative;
+  transition: flex 0.7s ease-in;
 }
 
 .panel-1 {
